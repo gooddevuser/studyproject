@@ -9,6 +9,7 @@ public class AccountController {
 	@GetMapping({"/detail"})
 	public String showDetail() {
 		
+		System.out.println("AAAAAAAAAA");
 		
 		
 		return "/crud/detail";
